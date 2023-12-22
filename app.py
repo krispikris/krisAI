@@ -5,8 +5,8 @@ st.write(
     """
     # My first app
     Hello *world!*     
-    
     """
 )
 
-st.chat_input("Message krisGPT...")
+with st.chat_message("user"):
+    st.write("Hello 👋")
