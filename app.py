@@ -36,7 +36,7 @@ if prompt := st.chat_input("What is up?"):
         # Simulate stream of response with milliseconds delay
         for chunk in assistant_response.split():
             full_response += chunk + " "
-            time.sleep(0.05)
+            time.sleep(3)
             # Add a blinking cursor to simulate typing
             message_placeholder.markdown(full_response + "▌")
         message_placeholder.markdown(full_response)
