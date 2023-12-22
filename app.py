@@ -9,4 +9,4 @@ st.write(
     """
 )
 
-st.chat_input("Message krisGPT...... testing testing")
+st.chat_input("Message krisGPT...")
